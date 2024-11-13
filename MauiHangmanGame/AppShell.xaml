@@ -8,7 +8,7 @@
     Title="MauiHangmanGame">
 
     <ShellContent
-        Title="Home"
+        Title="Hangman Game"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 

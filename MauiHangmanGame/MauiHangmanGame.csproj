@@ -57,6 +57,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\img0.jpg" />
+	  <None Remove="Resources\Images\img1.jpg" />
+	  <None Remove="Resources\Images\img2.jpg" />
+	  <None Remove="Resources\Images\img3.jpg" />
+	  <None Remove="Resources\Images\img4.jpg" />
+	  <None Remove="Resources\Images\img5.jpg" />
+	  <None Remove="Resources\Images\img6.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
